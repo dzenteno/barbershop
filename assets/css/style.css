@@ -1,0 +1,82 @@
+p {
+  font-family: "Roboto", sans-serif;
+}
+
+.date {
+  font-family: "Playfair Display", serif;
+}
+
+h1 {
+  font-family: "Playfair Display", serif;
+}
+
+h3 {
+  font-family: "Playfair Display", serif;
+}
+
+nav {
+  background-color: #121619;
+}
+nav .nav-link {
+  color: #fff;
+}
+nav .img-logo {
+  width: 100px;
+}
+
+header {
+  background-image: url("../img/post-image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+  height: 500px;
+}
+
+article {
+  line-height: 3;
+}
+
+h1 {
+  font-size: 70px;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.section-naothai {
+  color: #d76c69;
+  font-weight: 300;
+}
+
+.img-naothai {
+  width: 90%;
+}
+
+h3 {
+  font-weight: 900;
+  font-style: italic;
+  font-size: 30px;
+}
+
+.section-pagination {
+  background-color: #d1d1d1;
+}
+.section-pagination nav {
+  background-color: #d1d1d1;
+}
+
+footer {
+  background-color: #121619;
+}
+
+.img-logo {
+  width: 100px;
+}
+
+.button {
+  background-color: #6c6e70;
+  border: none;
+  color: #fff;
+  border-radius: 30px;
+}
+
+/*# sourceMappingURL=style.css.map */

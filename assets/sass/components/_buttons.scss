@@ -1,12 +1,12 @@
-.button{
+.button {
     background-color: $color-nikel;
     border: none;
     color: $color-white;
     border-radius: $btn-radius;
-    &:hover{
+    &:hover {
         background-color: $color-platinum;
     }
-    &:focus{
+    &:focus {
         border: 3px solid $color-light-gray;
     }
 }

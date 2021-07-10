@@ -1,24 +1,23 @@
 // bootstrap sass
-@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
 
 // abstracts
-@import 'abstracts/_variables';
+@import "abstracts/_variables";
 // vendors
 
 // base
-@import 'base/_typography';
+@import "base/_typography";
 
 // layout
-@import 'layout/_navigation';
-@import 'layout/_header';
-@import 'layout/_article';
-@import 'layout/_section';
-@import 'layout/_footer';
+@import "layout/_navigation";
+@import "layout/_header";
+@import "layout/_article";
+@import "layout/_section";
+@import "layout/_footer";
 
 // components
-@import 'components/_buttons';
+@import "components/_buttons";
 
 // pages
 
 // themes
-

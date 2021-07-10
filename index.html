@@ -29,8 +29,9 @@
     <nav class="navbar navbar-expand-lg py-4">
         <div class="container">
             <a class="navbar-brand" href="#"><img src="assets/img/logo.png" alt="" class="img-logo"></a>
-            <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse"
+                data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse flex-row-reverse" id="navbarNavAltMarkup">
@@ -89,7 +90,7 @@
         </div>
     </article>
 
-    <!-- Section -->
+    <!-- Section Autor -->
     <section class="section py-5">
         <hr>
         <div class="section__autor container py-5">
@@ -99,7 +100,7 @@
                 </div>
                 <div class="col">
                     <h3>Naomi Thai</h3>
-                    <p class="section_autor--link section-naothai">@Naothai <br> depelos.com</p>
+                    <a href="#"><p class="section_autor--link section-naothai">@Naothai <br> depelos.com</p></a>
                 </div>
                 <div class="col-6">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis culpa ullam quidem porro aliquid,
@@ -107,25 +108,26 @@
                     reiciendis! Aut?
                 </div>
             </div>
-        </div>        
+        </div>
     </section>
     <!-- pagination -->
-    <section class="section-pagination">
-        <nav class="d-flex justify-content-center  py-5">
-            <ul class="pagination rounded-pill">
-              <li class="page-item disabled">
-                <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Anterior</a>
-              </li>
-              <li class="page-item"><a class="page-link" href="#">1</a></li>
-              <li class="page-item active" aria-current="page">
-                <a class="page-link" href="#">2</a>
-              </li>
-              <li class="page-item"><a class="page-link" href="#">3</a></li>
-              <li class="page-item">
-                <a class="page-link" href="#">Siguiente</a>
-              </li>
+    <section class="section__pagination">
+        <nav class="pagination__navigation d-flex justify-content-center py-5">
+            <ul class="pagination__list pagination">
+                <li class="pagination__item page-item disabled">
+                    <a class="pagination__item--previous page-link" href="#" tabindex="-1"
+                        aria-disabled="true">Anterior</a>
+                </li>
+                <li class="pagination__item page-item"><a class="pagination__item--num-page page-link" href="#">1</a></li>
+                <li class="pagination__item page-item active" aria-current="page">
+                    <a class="pagination__item--num-page page-link" href="#">2</a>
+                </li>
+                <li class="pagination__item--num-page page-item"><a class="page-link" href="#">3</a></li>
+                <li class="pagination__item page-item">
+                    <a class="pagination__item--next page-link" href="#">Siguiente</a>
+                </li>
             </ul>
-          </nav>
+        </nav>
 
     </section>
 

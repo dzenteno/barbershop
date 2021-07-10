@@ -10793,7 +10793,10 @@ h1, .h1 {
   font-style: italic;
 }
 
-.section-naothai {
+a {
+  text-decoration-line: none;
+}
+a .section-naothai {
   color: #d76c69;
   font-weight: 300;
 }
@@ -10808,11 +10811,26 @@ h3, .h3 {
   font-size: 30px;
 }
 
-.section-pagination {
+.pagination__navigation {
   background-color: #d1d1d1;
 }
-.section-pagination nav {
-  background-color: #d1d1d1;
+.pagination__navigation .page-link {
+  color: #121619;
+}
+.pagination__navigation .active .page-link {
+  background-color: #6c6e70;
+  border: none;
+}
+
+.pagination__item--previous {
+  border-top-left-radius: 20px !important;
+  border-bottom-left-radius: 20px !important;
+}
+
+.pagination__item--next {
+  font-weight: bold;
+  border-top-right-radius: 20px !important;
+  border-bottom-right-radius: 20px !important;
 }
 
 footer {
@@ -10828,6 +10846,12 @@ footer {
   border: none;
   color: #fff;
   border-radius: 30px;
+}
+.button:hover {
+  background-color: #e6e7e7;
+}
+.button:focus {
+  border: 3px solid #d1d1d1;
 }
 
 /*# sourceMappingURL=style.css.map */

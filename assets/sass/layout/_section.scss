@@ -1,21 +1,42 @@
-.section-naothai{
-    color: $color-ruddy-pink;
-    font-weight: $h3-weight;
+a {
+    text-decoration-line: none;
+    .section-naothai {
+        color: $color-ruddy-pink;
+        font-weight: $h3-weight;
+    }
 }
 
-.img-naothai{
+.img-naothai {
     width: $img-naothai-width;
 }
 
-h3{
+h3 {
     font-weight: $h1-weight;
     font-style: $h1-style;
     font-size: $h3-size;
 }
 
-.section-pagination{
+.pagination__navigation {
     background-color: $color-light-gray;
-    nav{
-        background-color: $color-light-gray;        
+    .page-link {
+        color: $color-eerie-black;
     }
+    .active {
+        .page-link {
+            background-color: $color-nikel;
+            border: none;
+        }
+    }
+}
+
+
+
+.pagination__item--previous {
+    border-top-left-radius: 20px !important;
+    border-bottom-left-radius: 20px !important;
+}
+.pagination__item--next {
+    font-weight: bold;
+    border-top-right-radius: 20px !important;
+    border-bottom-right-radius: 20px !important;
 }

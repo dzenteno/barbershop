@@ -1,8 +1,15 @@
+// Section_autor
 a {
     text-decoration-line: none;
     .section-naothai {
         color: $color-ruddy-pink;
         font-weight: $h3-weight;
+        &:hover {
+            color: $color-eerie-black;
+        }
+        &:active{
+            color: $color-platinum;
+        }
     }
 }
 
@@ -16,6 +23,7 @@ h3 {
     font-size: $h3-size;
 }
 
+// Pagination
 .pagination__navigation {
     background-color: $color-light-gray;
     .page-link {
@@ -28,8 +36,6 @@ h3 {
         }
     }
 }
-
-
 
 .pagination__item--previous {
     border-top-left-radius: 20px !important;
